@@ -1,0 +1,101 @@
+---
+layout: base.njk
+title: Контакт — Запросить коммерческое предложение
+---
+
+<nav class="breadcrumb__container container">
+  <ul class="breadcrumb">
+    <li class="breadcrumb__item"><a href="/">Главная</a></li>
+    <li class="breadcrumb__item breadcrumb__item--active">Контакт</li>
+  </ul>
+</nav>
+
+<div class="hero hero-small">
+  <div class="hero-inner">
+    <h1>Запросить коммерческое предложение</h1>
+    <p>Свяжитесь с нами — мы подберём оптимальное решение для вашего производства</p>
+  </div>
+</div>
+
+<div class="container contact-layout">
+
+  <div class="contact-form-wrap">
+    <h2>Форма запроса</h2>
+    <form name="devis-global" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="quote-form">
+      <p class="hidden"><label>Ne pas remplir: <input name="bot-field"></label></p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nom">Имя *</label>
+          <input type="text" id="nom" name="nom" required placeholder="Иван Иванов">
+        </div>
+        <div class="form-group">
+          <label for="societe">Компания</label>
+          <input type="text" id="societe" name="societe" placeholder="ООО «Пекарня»">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required placeholder="ivan@company.ru">
+        </div>
+        <div class="form-group">
+          <label for="telephone">Телефон</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="+7 (xxx) xxx-xx-xx">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="produit">Продукт</label>
+        <input type="text" id="produit" name="produit" placeholder="Название интересующего оборудования">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" rows="5" placeholder="Опишите ваше производство, текущие задачи, требования к оборудованию..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-devis">Отправить запрос</button>
+    </form>
+  </div>
+
+  <div class="contact-info">
+    <h2>Контактная информация</h2>
+
+    <div class="contact-card">
+      <div class="contact-icon">📧</div>
+      <div>
+        <h4>Email</h4>
+        <a href="mailto:info@jac-machines.com">info@jac-machines.com</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">🌐</div>
+      <div>
+        <h4>Сайт</h4>
+        <a href="https://www.jac-machines.com" target="_blank" rel="noopener">www.jac-machines.com</a>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">📍</div>
+      <div>
+        <h4>Производство</h4>
+        <p>Франция — Европейское качество</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h4>Время ответа</h4>
+      <p>Мы отвечаем на все запросы в течение <strong>24 рабочих часов</strong>.</p>
+    </div>
+
+    <div class="info-box">
+      <h4>Наш подход</h4>
+      <p>Каждый клиент получает индивидуальное коммерческое предложение, разработанное с учётом специфики его производства.</p>
+    </div>
+  </div>
+
+</div>

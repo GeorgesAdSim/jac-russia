@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.42" height="93.537" viewBox="0 0 93.42 93.537">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e50019;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        mix-blend-mode: darken;
+        isolation: isolate;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4, .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-10 {
+        opacity: 0.53;
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-11, .cls-12 {
+        opacity: 0.52;
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-13 {
+        filter: url(#Tracé_2);
+      }
+    </style>
+    <filter id="Tracé_2" x="0" y="22.959" width="34.083" height="70.578" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.494" result="blur"/>
+      <feFlood flood-color="#1a1818" flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.937" y1="0.5" x2="0.078" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.245" stop-color="#1a1818" stop-opacity="0.4"/>
+      <stop offset="0.51" stop-color="#1a1818" stop-opacity="0.188"/>
+      <stop offset="1" stop-color="#1a1818" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1.027" x2="0.5" y2="0.092" gradientUnits="objectBoundingBox">
+      <stop offset="0.1" stop-color="#1a1818" stop-opacity="0.102"/>
+      <stop offset="0.535" stop-color="#1a1818" stop-opacity="0.2"/>
+      <stop offset="0.553" stop-color="#1a1818" stop-opacity="0.188"/>
+      <stop offset="1" stop-color="#1a1818" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.018" y1="0.5" x2="0.822" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.049" stop-color="#fff" stop-opacity="0.125"/>
+      <stop offset="0.194" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.318" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.386" stop-color="#fff" stop-opacity="0.165"/>
+      <stop offset="0.61" stop-color="#fff" stop-opacity="0.075"/>
+      <stop offset="0.82" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" y1="-0.018" x2="0.5" y2="0.822" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.049" stop-color="#fff" stop-opacity="0.125"/>
+      <stop offset="0.195" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.32" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.388" stop-color="#fff" stop-opacity="0.165"/>
+      <stop offset="0.611" stop-color="#fff" stop-opacity="0.075"/>
+      <stop offset="0.821" stop-color="#fff" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="-3.138" y1="2.551" x2="-2.942" y2="2.551" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.102"/>
+      <stop offset="0.049" stop-color="#fff" stop-opacity="0.125"/>
+      <stop offset="0.194" stop-color="#fff" stop-opacity="0.18"/>
+      <stop offset="0.318" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.445" stop-color="#fff" stop-opacity="0.125"/>
+      <stop offset="0.615" stop-color="#fff" stop-opacity="0.055"/>
+      <stop offset="0.795" stop-color="#fff" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="-4.246" y1="-3.994" x2="-4.08" y2="-3.994" xlink:href="#linear-gradient-6"/>
+    <linearGradient id="linear-gradient-9" x1="-0.542" y1="0.142" x2="1.003" y2="0.673" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-10" x1="-1.497" y1="-3.968" x2="2.046" y2="3.96" xlink:href="#linear-gradient-5"/>
+    <linearGradient id="linear-gradient-11" x1="-0.459" y1="-2.038" x2="1.316" y2="2.659" xlink:href="#linear-gradient-5"/>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(4.067 -0.44)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="27.582" height="27.575" transform="translate(0.44 0.44)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="27.559" height="27.575" transform="translate(31.116 0.44)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="27.582" height="27.575" transform="translate(61.77 0.44)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="27.582" height="61.338" transform="translate(0.44 28.015)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="27.559" height="61.338" transform="translate(31.116 28.015)"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="27.582" height="61.338" transform="translate(61.77 28.015)"/>
+    <path id="Tracé_1" data-name="Tracé 1" class="cls-2" d="M131.338,92.026h-6.98v8.9c0,3.252-1.558,3.636-2.575,3.636-.858,0-2.394-.361-2.394-3.636V59.3a2.213,2.213,0,0,1,2.394-2.439c1.446,0,2.237,1.017,2.327,2.53h-.023l.271,10h6.98V60.363c0-3.5-3.931-7.5-9.556-7.5-6.234,0-9.668,4-9.668,7.5v40.56c0,3.636,3.072,7.792,9.668,7.588,5.061.226,9.669-3.387,9.556-7.588v-8.9Z" transform="translate(-46.165 -22.005)"/>
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, -4.07, 0.44)">
+      <path id="Tracé_2-2" data-name="Tracé 2" class="cls-2" d="M18.8,52.9h6.935l-.023,42.571V100.8c.136,3.727-2.982,7.927-9.533,7.7-5.038.226-9.737-3.477-9.556-7.7v-8.9l.023.023,6.89-.023.022,4.788v4.11c0,3.252,1.695,3.659,2.689,3.659.858,0,2.484-.384,2.484-3.659l.068-3.929Z" transform="translate(0.87 -22.46)"/>
+    </g>
+    <path id="Tracé_3" data-name="Tracé 3" class="cls-2" d="M72.985,53.171H68.693V74.06l2.349,17.932H68.693v4.991h2.734l1.536,11.45H79.83Zm-4.292,0H67.2l-.317,2.416h0l-6.257,52.846h3.727l1.378-11.45h2.96V91.992H66.344L68.58,73.247l.113.813Z" transform="translate(-25.198 -22.13)"/>
+    <path id="Tracé_4" data-name="Tracé 4" class="cls-3" d="M149.085,1.545a22.549,22.549,0,0,1-2.4,2.15,5.348,5.348,0,0,1-1.255.672V86.8l3.657,3.657Z" transform="translate(-59.732 -1.105)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-4" width="27.559" height="3.657" transform="translate(31.117 85.696)"/>
+    <path id="Tracé_5" data-name="Tracé 5" class="cls-5" d="M105.065,145.375H128.99l3.657,3.657H105.065" transform="translate(-43.294 -59.68)"/>
+    <path id="Tracé_6" data-name="Tracé 6" class="cls-5" d="M29.179,149.032H1.6l3.657-3.657H29.179" transform="translate(-1.157 -59.68)"/>
+    <path id="Tracé_8" data-name="Tracé 8" class="cls-6" d="M1.6,1.545V90.457a10.721,10.721,0,0,0,3.865-7.24c.363-4.629.833-26,.847-38.083.015-14.194.287-29.648.373-34.707.015-.885,1.529-2.2,1.529-2.2" transform="translate(-1.157 -1.105)"/>
+    <path id="Tracé_9" data-name="Tracé 9" class="cls-7" d="M8.212,8.229S9.86,6.247,11.769,6.307c2.619.082,9.64.11,17.41.1V1.545H1.6" transform="translate(-1.157 -1.105)"/>
+    <path id="Tracé_10" data-name="Tracé 10" class="cls-8" d="M80.909,1.545H53.362L53.35,6.4c4.914-.015,9.931-.046,14.173-.089,3.868-.04,8.594-.079,13.387-.139Z" transform="translate(-22.233 -1.105)"/>
+    <path id="Tracé_11" data-name="Tracé 11" class="cls-9" d="M105.065,6.125c8.985-.131,17.6-.351,20.612-.8a10.256,10.256,0,0,0,6.97-3.785H105.065Z" transform="translate(-43.294 -1.105)"/>
+    <path id="Tracé_12" data-name="Tracé 12" class="cls-10" d="M29.179,1.545H1.6V90.457S9.45,85.793,9.934,60.64,8.657,25.762,17.546,17.418c3-2.818,7.031-4.587,11.633-5.7Z" transform="translate(-1.157 -1.105)"/>
+    <path id="Tracé_13" data-name="Tracé 13" class="cls-11" d="M105.065,1.545h27.582c-2.791,4.03-9.412,7.936-26.568,8.3-.335.007-.674.014-1.014.019Z" transform="translate(-43.294 -1.105)"/>
+    <path id="Tracé_14" data-name="Tracé 14" class="cls-12" d="M80.909,1.545H53.35v9.54C61.89,9.6,71.913,9.918,80.909,9.892Z" transform="translate(-22.233 -1.105)"/>
+  </g>
+</svg>

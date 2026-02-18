@@ -1,0 +1,163 @@
+---
+layout: base.njk
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "produit/{{ product.id }}-{{ product.url_key }}/"
+eleventyComputed:
+  title: "{{ product.name }}"
+---
+
+<nav class="breadcrumb__container container">
+  <ul class="breadcrumb">
+    <li class="breadcrumb__item"><a href="/">Главная</a></li>
+    {% set inBread = false %}
+    {% for catId in product.categories %}
+      {% if (catId == "3" or catId == "4" or catId == "5") and not inBread %}
+        <li class="breadcrumb__item"><a href="/pages/hleborezatelnye/">Хлеборезательные машины</a></li>
+        {% set inBread = true %}
+      {% endif %}
+      {% if (catId == "7" or catId == "8" or catId == "9" or catId == "10" or catId == "11" or catId == "12" or catId == "13" or catId == "14" or catId == "16") and not inBread %}
+        <li class="breadcrumb__item"><a href="/pages/testoobrabotka/">Оборудование для тестообработки</a></li>
+        {% set inBread = true %}
+      {% endif %}
+    {% endfor %}
+    <li class="breadcrumb__item breadcrumb__item--active">{{ product.name }}</li>
+  </ul>
+</nav>
+
+<div class="product-detail container">
+
+  <div class="product-gallery">
+    {% if product.images.length > 0 %}
+      <div class="gallery-main">
+        <img id="main-img" src="{{ product.images[0] }}" alt="{{ product.name }}">
+      </div>
+      {% if product.images.length > 1 %}
+        <div class="gallery-thumbs">
+          {% for img in product.images %}
+            <img src="{{ img }}" alt="{{ product.name }}" class="thumb {% if loop.first %}active{% endif %}"
+              onclick="document.getElementById('main-img').src='{{ img }}'; document.querySelectorAll('.thumb').forEach(t=>t.classList.remove('active')); this.classList.add('active')">
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="no-image-large">Фото недоступно</div>
+    {% endif %}
+  </div>
+
+  <div class="product-info">
+    <h1 class="product-title">{{ product.name }}</h1>
+    <p class="product-sku">Артикул : {{ product.sku }}</p>
+
+    {% if product.short_description %}
+      <div class="product-short-desc">
+        {{ product.short_description | safe }}
+      </div>
+    {% endif %}
+
+    {% if product.bullet_product %}
+      <div class="product-bullets">
+        {{ product.bullet_product | safe }}
+      </div>
+    {% endif %}
+
+    <div class="product-actions">
+      <a href="#quote-form" class="btn-devis">
+        Запросить коммерческое предложение
+      </a>
+    </div>
+
+    {% if product.attributes %}
+      <div class="product-specs">
+        <h3>Технические характеристики</h3>
+        <table class="specs-table">
+          {% if product.attributes.mode_d_utilisation %}
+            <tr><th>Режим работы</th><td>{{ product.attributes.mode_d_utilisation }}</td></tr>
+          {% endif %}
+          {% if product.attributes.type_de_coupe %}
+            <tr><th>Тип нарезки</th><td>{{ product.attributes.type_de_coupe }}</td></tr>
+          {% endif %}
+          {% if product.attributes.type_d_utilisation %}
+            <tr><th>Тип использования</th><td>{{ product.attributes.type_d_utilisation }}</td></tr>
+          {% endif %}
+          {% if product.attributes.bacs_recuperateurs %}
+            <tr><th>Лотки для сбора крошек</th><td>{{ product.attributes.bacs_recuperateurs }}</td></tr>
+          {% endif %}
+          {% if product.attributes.socle_a_roulettes %}
+            <tr><th>Подставка на колёсах</th><td>{{ product.attributes.socle_a_roulettes }}</td></tr>
+          {% endif %}
+          {% if product.attributes.souffleuse_autonome %}
+            <tr><th>Автономный воздуходув</th><td>{{ product.attributes.souffleuse_autonome }}</td></tr>
+          {% endif %}
+          {% if product.attributes.tourniquet %}
+            <tr><th>Турникет</th><td>{{ product.attributes.tourniquet }}</td></tr>
+          {% endif %}
+        </table>
+      </div>
+    {% endif %}
+
+    {% if product.attributes and product.attributes.caracteristiques %}
+      <div class="product-specs product-specs--detailed">
+        <h3>Характеристики</h3>
+        <div class="specs-html">
+          {{ product.attributes.caracteristiques | safe }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% if product.short_description or product.bullet_product %}
+<div class="container product-description-full">
+  <h2>Описание продукта</h2>
+  {% if product.short_description %}
+    <div class="desc-content">{{ product.short_description | safe }}</div>
+  {% endif %}
+</div>
+{% endif %}
+
+<div id="quote-form" class="container product-quote-form">
+  <h2>Запросить коммерческое предложение</h2>
+  <p>Заполните форму и наш специалист свяжется с вами в течение 24 часов</p>
+
+  <form name="devis-produit" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="quote-form">
+    <input type="hidden" name="product_sku" value="{{ product.sku }}">
+    <p class="hidden"><label>Ne pas remplir: <input name="bot-field"></label></p>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="nom">Имя *</label>
+        <input type="text" id="nom" name="nom" required placeholder="Иван Иванов">
+      </div>
+      <div class="form-group">
+        <label for="societe">Компания</label>
+        <input type="text" id="societe" name="societe" placeholder="ООО «Пекарня»">
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="ivan@company.ru">
+      </div>
+      <div class="form-group">
+        <label for="telephone">Телефон</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="+7 (xxx) xxx-xx-xx">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="produit">Продукт</label>
+      <input type="text" id="produit" name="produit" value="{{ product.name }} ({{ product.sku }})" readonly>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Сообщение</label>
+      <textarea id="message" name="message" rows="4" placeholder="Опишите ваши требования, объём производства, особые условия..."></textarea>
+    </div>
+
+    <button type="submit" class="btn-devis">Отправить запрос</button>
+  </form>
+</div>

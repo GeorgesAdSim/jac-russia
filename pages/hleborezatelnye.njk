@@ -1,0 +1,117 @@
+---
+layout: base.njk
+title: Хлеборезательные машины
+---
+
+<nav class="breadcrumb__container container">
+  <ul class="breadcrumb">
+    <li class="breadcrumb__item"><a href="/">Главная</a></li>
+    <li class="breadcrumb__item breadcrumb__item--active">Хлеборезательные машины</li>
+  </ul>
+</nav>
+
+<div class="hero hero-small">
+  <div class="hero-inner">
+    <h1>Хлеборезательные машины</h1>
+    <p>Профессиональные хлеборезки для пекарен, супермаркетов и производств</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="subcategories">
+    <a class="subcat-badge" href="#professionaly">Хлеборезки для профессионалов</a>
+    <a class="subcat-badge" href="#samoobsluzhivanie">Хлеборезки самообслуживания</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="products-grid" id="products-grid">
+{% for product in products | mainProductsOnly %}
+  {% set inCategory = false %}
+  {% for catId in product.categories %}
+    {% if catId == "3" or catId == "4" or catId == "5" %}
+      {% set inCategory = true %}
+    {% endif %}
+  {% endfor %}
+  {% if inCategory %}
+    <a class="product-card" href="/produit/{{ product.id }}-{{ product.url_key }}/">
+      {% if product.images.length > 0 %}
+        <img src="{{ product.images[0] }}" alt="{{ product.name }}" loading="lazy">
+      {% else %}
+        <div class="no-image">Нет фото</div>
+      {% endif %}
+      <div class="prod-body">
+        <h3>{{ product.name }}</h3>
+        <p class="desc">{{ product.short_description | striptags | truncate(100) }}</p>
+        <span class="btn-devis-small">Подробнее →</span>
+      </div>
+    </a>
+  {% endif %}
+{% endfor %}
+  </div>
+  <div class="pagination" id="pagination"></div>
+</div>
+
+<script>
+(function() {
+  var PER_PAGE = 20;
+  var grid = document.getElementById('products-grid');
+  var paginationEl = document.getElementById('pagination');
+  if (!grid) return;
+  var cards = Array.from(grid.querySelectorAll('.product-card'));
+  var total = cards.length;
+  if (total <= PER_PAGE) return;
+  var totalPages = Math.ceil(total / PER_PAGE);
+  var currentPage = 1;
+
+  function createPageLink(page, label) {
+    var a = document.createElement('a');
+    a.href = '#';
+    a.setAttribute('data-page', String(page));
+    a.textContent = label || String(page);
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      showPage(parseInt(this.getAttribute('data-page'), 10));
+    });
+    return a;
+  }
+
+  function showPage(page) {
+    currentPage = page;
+    var start = (page - 1) * PER_PAGE;
+    var end = start + PER_PAGE;
+    cards.forEach(function(card, i) {
+      card.style.display = (i >= start && i < end) ? '' : 'none';
+    });
+    renderPagination();
+    window.scrollTo({ top: grid.offsetTop - 120, behavior: 'smooth' });
+  }
+
+  function renderPagination() {
+    paginationEl.textContent = '';
+    if (currentPage > 1) {
+      paginationEl.appendChild(createPageLink(currentPage - 1, '\u00AB'));
+    }
+    for (var i = 1; i <= totalPages; i++) {
+      if (i === currentPage) {
+        var span = document.createElement('span');
+        span.className = 'pagination-current';
+        span.textContent = String(i);
+        paginationEl.appendChild(span);
+      } else if (i === 1 || i === totalPages || Math.abs(i - currentPage) <= 2) {
+        paginationEl.appendChild(createPageLink(i));
+      } else if (Math.abs(i - currentPage) === 3) {
+        var dots = document.createElement('span');
+        dots.className = 'pagination-ellipsis';
+        dots.textContent = '...';
+        paginationEl.appendChild(dots);
+      }
+    }
+    if (currentPage < totalPages) {
+      paginationEl.appendChild(createPageLink(currentPage + 1, '\u00BB'));
+    }
+  }
+
+  showPage(1);
+})();
+</script>

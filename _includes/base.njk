@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} — JAC Machines</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <a href="/" class="logo-link">
+      <img src="https://www.jac-machines.com/media/header_logo_custom/default/logo_jac.svg" alt="JAC Machines" class="logo">
+    </a>
+    <a href="/" class="header-gamme">Наша гамма продукции</a>
+  </div>
+  <div class="header-right">
+    <nav>
+      <a href="/">Компания</a>
+      <a href="/pages/hleborezatelnye/">Медиатека</a>
+      <a href="/contact/">Контакты</a>
+      <a href="/pages/testoobrabotka/">Сервис</a>
+    </nav>
+    <div class="header-lang">Русский <span class="lang-arrow">&#9662;</span></div>
+  </div>
+</header>
+
+{{ content | safe }}
+
+<footer>
+  <div class="footer-logo-row">
+    <img src="/assets/images/logo-jac.svg" alt="JAC Machines" class="footer-logo">
+  </div>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h4>Хлеборезательные машины</h4>
+      <ul>
+        <li><a href="/pages/hleborezatelnye/">Хлеборезки для профессионалов</a></li>
+        <li><a href="/pages/hleborezatelnye/">Хлеборезки самообслуживания</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Оборудование для тестообработки</h4>
+      <ul>
+        <li><a href="/pages/testoobrabotka/">Ферментаторы для закваски</a></li>
+        <li><a href="/pages/testoobrabotka/">Гидравлические делители</a></li>
+        <li><a href="/pages/testoobrabotka/">Делители-формовщики</a></li>
+        <li><a href="/pages/testoobrabotka/">Прессы для теста и сливочного масла</a></li>
+        <li><a href="/pages/testoobrabotka/">Автоматические объемные делители</a></li>
+        <li><a href="/pages/testoobrabotka/">Шкафы предварительной расстойки</a></li>
+        <li><a href="/pages/testoobrabotka/">Тестоформовочные машины</a></li>
+        <li><a href="/pages/testoobrabotka/">Автоматизированные линии</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Сервис и помощь</h4>
+      <ul>
+        <li><a href="/contact/">контакт</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="#">Политика конфиденциальности и использования файлов cookie</a></li>
+        <li><a href="#">Условия продажи</a></li>
+      </ul>
+      <h4 class="footer-col-subtitle">JAC</h4>
+      <ul>
+        <li><a href="#">Трудоустройство</a></li>
+        <li><a href="#">Наша история</a></li>
+        <li><a href="#">Кто мы</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-newsletter-outer">
+    <div class="footer-newsletter-row">
+      <h4>Подписка на рассылку новостей</h4>
+      <form class="footer-newsletter-form" action="/contact/" method="get">
+        <input type="email" name="email" placeholder="Введите свой адрес электронной почты">
+        <button type="submit">Подписка</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom-outer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 JAC. Все права защищены</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
