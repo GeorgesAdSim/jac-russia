@@ -1,13 +1,13 @@
 ---
 layout: base.njk
 title: Хлеборезки самообслуживания
-permalink: /hleborezatelnye/samoobsluzhivanie/
+permalink: /hleborezatel-nye-mashiny/hleborezki-samoobsluzhivanija/
 ---
 
 <nav class="breadcrumb__container container">
   <ul class="breadcrumb">
     <li class="breadcrumb__item"><a href="/">Главная</a></li>
-    <li class="breadcrumb__item"><a href="/hleborezatelnye/">Хлеборезательные машины</a></li>
+    <li class="breadcrumb__item"><a href="/hleborezatel-nye-mashiny/">Хлеборезательные машины</a></li>
     <li class="breadcrumb__item breadcrumb__item--active">Хлеборезки самообслуживания</li>
   </ul>
 </nav>
@@ -21,32 +21,32 @@ permalink: /hleborezatelnye/samoobsluzhivanie/
 
 <div class="container">
   <div class="subcategories">
-    <a class="subcat-badge" href="/hleborezatelnye/professionaly/">Хлеборезки для профессионалов</a>
-    <a class="subcat-badge active" href="/hleborezatelnye/samoobsluzhivanie/">Хлеборезки самообслуживания</a>
+    <a class="subcat-badge" href="/hleborezatel-nye-mashiny/hleborezki-dlja-professionalov/">Хлеборезки для профессионалов</a>
+    <a class="subcat-badge active" href="/hleborezatel-nye-mashiny/hleborezki-samoobsluzhivanija/">Хлеборезки самообслуживания</a>
   </div>
 </div>
 
 <div class="container">
   <div class="products-grid">
-{% for product in products | mainProductsOnly %}
-  {% set inCat = false %}
-  {% for catId in product.categories %}
-    {% if catId == "5" %}{% set inCat = true %}{% endif %}
-  {% endfor %}
-  {% if inCat %}
-    <a class="product-card" href="/hleborezatelnye/samoobsluzhivanie/{{ product.url_key }}/">
-      {% if product.images.length > 0 %}
+{%- for product in products | mainProductsOnly %}
+  {%- set inCat = false %}
+  {%- for catId in product.categories %}
+    {%- if catId == "5" %}{%- set inCat = true %}{%- endif %}
+  {%- endfor %}
+  {%- if inCat %}
+    <a class="product-card" href="{{ product | productUrl }}">
+      {%- if product.images.length > 0 %}
         <img src="{{ product.images[0] }}" alt="{{ product.name }}" loading="lazy">
-      {% else %}
+      {%- else %}
         <div class="no-image">Нет фото</div>
-      {% endif %}
+      {%- endif %}
       <div class="prod-body">
         <h3>{{ product.name }}</h3>
         <p class="desc">{{ product.short_description | striptags | truncate(100) }}</p>
         <span class="btn-devis-small">Подробнее →</span>
       </div>
     </a>
-  {% endif %}
-{% endfor %}
+  {%- endif %}
+{%- endfor %}
   </div>
 </div>
