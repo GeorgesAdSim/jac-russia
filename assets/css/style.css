@@ -805,6 +805,9 @@ nav a:hover { color: var(--red); }
   border-radius: 20px;
   font-size: 13px;
   color: var(--gray-dark);
+  background: #fff;
+  cursor: pointer;
+  font-family: inherit;
   transition: border-color 0.2s, color 0.2s, background 0.2s;
 }
 
@@ -812,6 +815,12 @@ nav a:hover { color: var(--red); }
   border-color: var(--red);
   color: var(--red);
   background: #fff0f0;
+}
+
+.subcat-badge.active {
+  border-color: var(--red);
+  color: #fff;
+  background: var(--red);
 }
 
 /* ===== PRODUCT GRID ===== */

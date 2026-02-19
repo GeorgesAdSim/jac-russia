@@ -19,8 +19,8 @@ title: Хлеборезательные машины
 
 <div class="container">
   <div class="subcategories">
-    <a class="subcat-badge" href="#professionaly">Хлеборезки для профессионалов</a>
-    <a class="subcat-badge" href="#samoobsluzhivanie">Хлеборезки самообслуживания</a>
+    <button class="subcat-badge active" data-filter="4">Хлеборезки для профессионалов</button>
+    <button class="subcat-badge" data-filter="5">Хлеборезки самообслуживания</button>
   </div>
 </div>
 
@@ -28,13 +28,15 @@ title: Хлеборезательные машины
   <div class="products-grid" id="products-grid">
 {% for product in products | mainProductsOnly %}
   {% set inCategory = false %}
+  {% set productSubcat = "" %}
   {% for catId in product.categories %}
-    {% if catId == "3" or catId == "4" or catId == "5" %}
+    {% if catId == "4" or catId == "5" %}
       {% set inCategory = true %}
+      {% set productSubcat = catId %}
     {% endif %}
   {% endfor %}
   {% if inCategory %}
-    <a class="product-card" href="/produit/{{ product.id }}-{{ product.url_key }}/">
+    <a class="product-card" href="/produit/{{ product.id }}-{{ product.url_key }}/" data-subcat="{{ productSubcat }}">
       {% if product.images.length > 0 %}
         <img src="{{ product.images[0] }}" alt="{{ product.name }}" loading="lazy">
       {% else %}
@@ -57,12 +59,31 @@ title: Хлеборезательные машины
   var PER_PAGE = 20;
   var grid = document.getElementById('products-grid');
   var paginationEl = document.getElementById('pagination');
+  var buttons = document.querySelectorAll('.subcat-badge[data-filter]');
   if (!grid) return;
-  var cards = Array.from(grid.querySelectorAll('.product-card'));
-  var total = cards.length;
-  if (total <= PER_PAGE) return;
-  var totalPages = Math.ceil(total / PER_PAGE);
+
+  var allCards = Array.from(grid.querySelectorAll('.product-card'));
+  var activeFilter = '4';
   var currentPage = 1;
+
+  function getFilteredCards() {
+    return allCards.filter(function(card) {
+      return card.getAttribute('data-subcat') === activeFilter;
+    });
+  }
+
+  function showPage(page) {
+    currentPage = page;
+    var filtered = getFilteredCards();
+    var start = (page - 1) * PER_PAGE;
+    var end = start + PER_PAGE;
+    allCards.forEach(function(card) { card.style.display = 'none'; });
+    filtered.forEach(function(card, i) {
+      card.style.display = (i >= start && i < end) ? '' : 'none';
+    });
+    renderPagination(filtered.length);
+    window.scrollTo({ top: grid.offsetTop - 120, behavior: 'smooth' });
+  }
 
   function createPageLink(page, label) {
     var a = document.createElement('a');
@@ -76,19 +97,10 @@ title: Хлеборезательные машины
     return a;
   }
 
-  function showPage(page) {
-    currentPage = page;
-    var start = (page - 1) * PER_PAGE;
-    var end = start + PER_PAGE;
-    cards.forEach(function(card, i) {
-      card.style.display = (i >= start && i < end) ? '' : 'none';
-    });
-    renderPagination();
-    window.scrollTo({ top: grid.offsetTop - 120, behavior: 'smooth' });
-  }
-
-  function renderPagination() {
+  function renderPagination(total) {
     paginationEl.textContent = '';
+    var totalPages = Math.ceil(total / PER_PAGE);
+    if (totalPages <= 1) return;
     if (currentPage > 1) {
       paginationEl.appendChild(createPageLink(currentPage - 1, '\u00AB'));
     }
@@ -111,6 +123,16 @@ title: Хлеборезательные машины
       paginationEl.appendChild(createPageLink(currentPage + 1, '\u00BB'));
     }
   }
+
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      buttons.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeFilter = btn.getAttribute('data-filter');
+      currentPage = 1;
+      showPage(1);
+    });
+  });
 
   showPage(1);
 })();
