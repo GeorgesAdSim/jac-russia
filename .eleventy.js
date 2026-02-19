@@ -1,15 +1,15 @@
 // Mapping sous-catégorie ID → slugs SEO (alignés sur jac-machines.com/ru/)
 const CAT_SEO = {
-  '4':  { parent: 'hleborezatel-nye-mashiny', parentName: 'Хлеборезательные машины', parentUrl: '/hleborezatel-nye-mashiny/', slug: 'hleborezki-dlja-professionalov', name: 'Хлеборезки для профессионалов' },
-  '5':  { parent: 'hleborezatel-nye-mashiny', parentName: 'Хлеборезательные машины', parentUrl: '/hleborezatel-nye-mashiny/', slug: 'hleborezki-samoobsluzhivanija', name: 'Хлеборезки самообслуживания' },
-  '8':  { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'fermentatory-dlja-zakvaski', name: 'Ферментаторы для закваски' },
-  '9':  { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'gidravlicheskie-deliteli', name: 'Гидравлические делители' },
-  '12': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'deliteli-formovshiki', name: 'Делители-формовщики' },
-  '16': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'presy-dlja-testa-i-slivochnogo-masla', name: 'Прессы для теста' },
-  '10': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'avtomaticheskie-obemnye-deliteli', name: 'Автоматические делители' },
-  '11': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'shkafi-predvaritelnoj-rasstoiki', name: 'Шкафы расстойки' },
-  '13': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'testoformovochnye-mashiny', name: 'Тестоформовочные машины' },
-  '14': { parent: 'oborudovanie-dlja-testoobrabotki', parentName: 'Оборудование для тестообработки', parentUrl: '/oborudovanie-dlja-testoobrabotki/', slug: 'avtomatizirovannye-linii', name: 'Автоматизированные линии' }
+  '4':  { parent: 'hleborezatelnye', parentName: 'Хлеборезательные машины', parentUrl: '/hleborezatelnye/', slug: 'professionaly', name: 'Хлеборезки для профессионалов' },
+  '5':  { parent: 'hleborezatelnye', parentName: 'Хлеборезательные машины', parentUrl: '/hleborezatelnye/', slug: 'samoobsluzhivanie', name: 'Хлеборезки самообслуживания' },
+  '8':  { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'fermenty', name: 'Ферментаторы для закваски' },
+  '9':  { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'gidravlicheskie-deliteli', name: 'Гидравлические делители' },
+  '12': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'deliteli-formovshiki', name: 'Делители-формовщики' },
+  '16': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'presy-dlya-testa', name: 'Прессы для теста' },
+  '10': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'avtomat-deliteli', name: 'Автоматические делители' },
+  '11': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'shkafi-rasstoyki', name: 'Шкафы расстойки' },
+  '13': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'testoformovochnye', name: 'Тестоформовочные машины' },
+  '14': { parent: 'testoobrabotka', parentName: 'Оборудование для тестообработки', parentUrl: '/testoobrabotka/', slug: 'avtomatizirovannye-linii', name: 'Автоматизированные линии' }
 };
 
 module.exports = function(eleventyConfig) {
