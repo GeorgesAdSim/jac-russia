@@ -4,3 +4,2588 @@
 
 [build.environment]
   NODE_VERSION = "18"
+[[redirects]]
+  from = "/pages/hleborezatelnye/"
+  to = "/hleborezatelnye/professionaly/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/pages/testoobrabotka/"
+  to = "/testoobrabotka/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/40-ecoplus-base/"
+  to = "/hleborezatelnye/professionaly/ecoplus-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/56-bag-o-bag/"
+  to = "/hleborezatelnye/samoobsluzhivanie/bag-o-bag/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/57-zip/"
+  to = "/hleborezatelnye/professionaly/zip/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/74-gd/"
+  to = "/testoobrabotka/avtomat-deliteli/gd/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/75-gds/"
+  to = "/testoobrabotka/avtomat-deliteli/gds/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/76-pe50p/"
+  to = "/testoobrabotka/avtomat-deliteli/pe50p/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/77-mb-s/"
+  to = "/testoobrabotka/shkafi-rasstoyki/mb-s/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/80-ba-s/"
+  to = "/testoobrabotka/shkafi-rasstoyki/ba-s/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/83-ba-pro/"
+  to = "/testoobrabotka/shkafi-rasstoyki/ba-pro/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/84-rollform/"
+  to = "/testoobrabotka/testoformovochnye/rollform/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/85-unic/"
+  to = "/testoobrabotka/testoformovochnye/unic/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/90-proline/"
+  to = "/testoobrabotka/avtomatizirovannye-linii/proline/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/128-drivy-s/"
+  to = "/testoobrabotka/testoformovochnye/drivy-s/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/160-eco-blanc/"
+  to = "/hleborezatelnye/professionaly/eco-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/161-eco-gris/"
+  to = "/hleborezatelnye/professionaly/eco-gris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/162-eco-rouge/"
+  to = "/hleborezatelnye/professionaly/eco-rouge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/163-eco-black-edition/"
+  to = "/hleborezatelnye/professionaly/eco-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/164-eco-noir/"
+  to = "/hleborezatelnye/professionaly/eco-noir/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/165-ecoplus-450/"
+  to = "/hleborezatelnye/professionaly/ecoplus-450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/169-bag-o-bag-yes-yes/"
+  to = "/hleborezatelnye/samoobsluzhivanie/bag-o-bag-yes-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/170-bag-o-bag-yes-no/"
+  to = "/hleborezatelnye/samoobsluzhivanie/bag-o-bag-yes-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/171-bag-o-bag-no-yes/"
+  to = "/hleborezatelnye/samoobsluzhivanie/bag-o-bag-no-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/172-bag-o-bag-no-no/"
+  to = "/hleborezatelnye/samoobsluzhivanie/bag-o-bag-no-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/197-eco-450-choix/"
+  to = "/hleborezatelnye/professionaly/eco-450-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/198-eco-choix/"
+  to = "/hleborezatelnye/professionaly/eco-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/199-ecoplus-450m/"
+  to = "/hleborezatelnye/professionaly/ecoplus-450m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/200-ecoplus-600/"
+  to = "/hleborezatelnye/professionaly/ecoplus-600/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/201-eco-blanc-1/"
+  to = "/hleborezatelnye/professionaly/eco-blanc-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/202-eco-gris-1/"
+  to = "/hleborezatelnye/professionaly/eco-gris-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/203-eco-rouge-1/"
+  to = "/hleborezatelnye/professionaly/eco-rouge-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/205-eco-noir-1/"
+  to = "/hleborezatelnye/professionaly/eco-noir-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/206-eco-black-edition-1/"
+  to = "/hleborezatelnye/professionaly/eco-black-edition-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/207-eco-choix-1/"
+  to = "/hleborezatelnye/professionaly/eco-choix-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/213-eco-rouge-2/"
+  to = "/hleborezatelnye/professionaly/eco-rouge-2/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/214-eco-noir-2/"
+  to = "/hleborezatelnye/professionaly/eco-noir-2/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/216-face-blanc/"
+  to = "/hleborezatelnye/professionaly/face-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/217-face-gris/"
+  to = "/hleborezatelnye/professionaly/face-gris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/218-face-rouge/"
+  to = "/hleborezatelnye/professionaly/face-rouge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/219-face-black-edition/"
+  to = "/hleborezatelnye/professionaly/face-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/220-face-noir/"
+  to = "/hleborezatelnye/professionaly/face-noir/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/221-face-choix/"
+  to = "/hleborezatelnye/professionaly/face-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/229-modena450-1/"
+  to = "/hleborezatelnye/professionaly/modena450-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/235-swift/"
+  to = "/hleborezatelnye/professionaly/swift/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/236-swift-blanc/"
+  to = "/hleborezatelnye/professionaly/swift-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/237-swift-choix/"
+  to = "/hleborezatelnye/professionaly/swift-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/239-duro-base/"
+  to = "/hleborezatelnye/professionaly/duro-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/240-duro-blanc/"
+  to = "/hleborezatelnye/professionaly/duro-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/241-duro-choix/"
+  to = "/hleborezatelnye/professionaly/duro-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/242-duro450/"
+  to = "/hleborezatelnye/professionaly/duro450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/244-duro-450m/"
+  to = "/hleborezatelnye/professionaly/duro-450m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/245-duro-600/"
+  to = "/hleborezatelnye/professionaly/duro-600/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/246-duro-600-blanc/"
+  to = "/hleborezatelnye/professionaly/duro-600-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/247-duro-600-choix/"
+  to = "/hleborezatelnye/professionaly/duro-600-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/249-pico-2/"
+  to = "/hleborezatelnye/professionaly/pico-2/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/265-pico-450/"
+  to = "/hleborezatelnye/professionaly/pico-450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/266-pico-450m/"
+  to = "/hleborezatelnye/professionaly/pico-450m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/268-picomatic-base/"
+  to = "/hleborezatelnye/professionaly/picomatic-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/269-picomatic-blanc-yes/"
+  to = "/hleborezatelnye/professionaly/picomatic-blanc-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/270-picomatic-blanc-no/"
+  to = "/hleborezatelnye/professionaly/picomatic-blanc-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/271-picomatic-gris-yes/"
+  to = "/hleborezatelnye/professionaly/picomatic-gris-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/272-picomatic-gris-no/"
+  to = "/hleborezatelnye/professionaly/picomatic-gris-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/277-picomatic-noir-yes/"
+  to = "/hleborezatelnye/professionaly/picomatic-noir-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/278-picomatic-noir-no/"
+  to = "/hleborezatelnye/professionaly/picomatic-noir-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/279-picomatic-choix-yes/"
+  to = "/hleborezatelnye/professionaly/picomatic-choix-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/280-picomatic-choix-no/"
+  to = "/hleborezatelnye/professionaly/picomatic-choix-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/281-picomatic-450/"
+  to = "/hleborezatelnye/professionaly/picomatic-450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/282-picomatic-450m/"
+  to = "/hleborezatelnye/professionaly/picomatic-450m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/283-newself-base/"
+  to = "/hleborezatelnye/samoobsluzhivanie/newself-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/284-new-self-blanc/"
+  to = "/hleborezatelnye/samoobsluzhivanie/new-self-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/285-new-self-gris/"
+  to = "/hleborezatelnye/samoobsluzhivanie/new-self-gris/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/286-new-self-rouge/"
+  to = "/hleborezatelnye/samoobsluzhivanie/new-self-rouge/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/287-new-self-noir/"
+  to = "/hleborezatelnye/samoobsluzhivanie/new-self-noir/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/288-new-self-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/new-self-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/289-newself-450/"
+  to = "/hleborezatelnye/samoobsluzhivanie/newself-450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/290-newself-450m/"
+  to = "/hleborezatelnye/samoobsluzhivanie/newself-450m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/291-chute-450/"
+  to = "/hleborezatelnye/professionaly/chute-450/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/292-chute-450-blanc/"
+  to = "/hleborezatelnye/professionaly/chute-450-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/293-chute-450-choix/"
+  to = "/hleborezatelnye/professionaly/chute-450-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/295-varia-pro-blanc/"
+  to = "/hleborezatelnye/professionaly/varia-pro-blanc/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/315-zip-yes-no-yes/"
+  to = "/hleborezatelnye/professionaly/zip-yes-no-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/316-zip-yes-no-no/"
+  to = "/hleborezatelnye/professionaly/zip-yes-no-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/317-zip-yes-yes-yes/"
+  to = "/hleborezatelnye/professionaly/zip-yes-yes-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/318-zip-yes-yes-no/"
+  to = "/hleborezatelnye/professionaly/zip-yes-yes-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/319-zip-no-no-yes/"
+  to = "/hleborezatelnye/professionaly/zip-no-no-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/320-zip-no-no-no/"
+  to = "/hleborezatelnye/professionaly/zip-no-no-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/321-zip-no-yes-yes/"
+  to = "/hleborezatelnye/professionaly/zip-no-yes-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/322-zip-no-yes-no/"
+  to = "/hleborezatelnye/professionaly/zip-no-yes-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/339-fullt2/"
+  to = "/hleborezatelnye/professionaly/fullt2/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/340-full-base/"
+  to = "/hleborezatelnye/professionaly/full-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/341-fullt3/"
+  to = "/hleborezatelnye/professionaly/fullt3/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/371-div-r-carree/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-carree/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/373-div-r-20-ronde/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/375-div-carree/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-carree/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/378-div-20-ronde/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-20-ronde/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/383-diviform-plus/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-plus/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/384-tradiform/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/385-paniform/"
+  to = "/testoobrabotka/deliteli-formovshiki/paniform/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/390-mb-l/"
+  to = "/testoobrabotka/shkafi-rasstoyki/mb-l/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/392-mb-xl/"
+  to = "/testoobrabotka/shkafi-rasstoyki/mb-xl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/393-ba-l/"
+  to = "/testoobrabotka/shkafi-rasstoyki/ba-l/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/394-ba-xl/"
+  to = "/testoobrabotka/shkafi-rasstoyki/ba-xl/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/395-rollform-yes/"
+  to = "/testoobrabotka/testoformovochnye/rollform-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/396-rollform-no/"
+  to = "/testoobrabotka/testoformovochnye/rollform-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/434-ultima/"
+  to = "/testoobrabotka/testoformovochnye/ultima/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/436-tradi-non/"
+  to = "/testoobrabotka/testoformovochnye/tradi-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/437-tradi-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/tradi-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/438-tradi-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/tradi-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/439-tradi-moov-m-supplements/"
+  to = "/testoobrabotka/testoformovochnye/tradi-moov-m-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/440-tradi-socle-avec-rangements-supplements/"
+  to = "/testoobrabotka/testoformovochnye/tradi-socle-avec-rangements-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/441-tradi-moov-l-supplements/"
+  to = "/testoobrabotka/testoformovochnye/tradi-moov-l-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/442-forma/"
+  to = "/testoobrabotka/testoformovochnye/forma/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/443-forma-non/"
+  to = "/testoobrabotka/testoformovochnye/forma-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/444-forma-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/forma-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/445-forma-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/forma-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/446-forma-moov-m-supplements/"
+  to = "/testoobrabotka/testoformovochnye/forma-moov-m-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/447-forma-socle-avec-rangements-supplements/"
+  to = "/testoobrabotka/testoformovochnye/forma-socle-avec-rangements-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/448-forma-moov-l-supplements/"
+  to = "/testoobrabotka/testoformovochnye/forma-moov-l-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/450-mb/"
+  to = "/testoobrabotka/shkafi-rasstoyki/mb/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/452-ba/"
+  to = "/testoobrabotka/shkafi-rasstoyki/ba/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/454-hf/"
+  to = "/testoobrabotka/testoformovochnye/hf/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/455-optima/"
+  to = "/testoobrabotka/testoformovochnye/optima/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/456-undefined-non/"
+  to = "/testoobrabotka/testoformovochnye/undefined-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/457-undefined-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/undefined-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/458-undefined-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/undefined-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/459-undefined-moov-m-supplements/"
+  to = "/testoobrabotka/testoformovochnye/undefined-moov-m-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/460-undefined-socle-avec-rangements-supplements/"
+  to = "/testoobrabotka/testoformovochnye/undefined-socle-avec-rangements-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/461-undefined-moov-l-supplements/"
+  to = "/testoobrabotka/testoformovochnye/undefined-moov-l-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/462-moov-m/"
+  to = "/testoobrabotka/testoformovochnye/moov-m/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/463-moov-l/"
+  to = "/testoobrabotka/testoformovochnye/moov-l/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/464-pro+/"
+  to = "/testoobrabotka/avtomatizirovannye-linii/pro+/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/473-picomatic-one-yes/"
+  to = "/hleborezatelnye/professionaly/picomatic-one-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/474-picomatic-one-no/"
+  to = "/hleborezatelnye/professionaly/picomatic-one-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/490-zip-yes-yes/"
+  to = "/hleborezatelnye/professionaly/zip-yes-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/491-zip-yes-no/"
+  to = "/hleborezatelnye/professionaly/zip-yes-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/492-zip-no-yes/"
+  to = "/hleborezatelnye/professionaly/zip-no-yes/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/493-zip-no-no/"
+  to = "/hleborezatelnye/professionaly/zip-no-no/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/519-unic-non/"
+  to = "/testoobrabotka/testoformovochnye/unic-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/520-unic-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/unic-drivy-s-uniquement-compatible-avec-le-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/521-unic-socle-a-roulettes-supplements/"
+  to = "/testoobrabotka/testoformovochnye/unic-socle-a-roulettes-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/522-unic-moov-m-supplements/"
+  to = "/testoobrabotka/testoformovochnye/unic-moov-m-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/523-unic-socle-avec-rangements-supplements/"
+  to = "/testoobrabotka/testoformovochnye/unic-socle-avec-rangements-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/524-unic-moov-l-supplements/"
+  to = "/testoobrabotka/testoformovochnye/unic-moov-l-supplements/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/526-div-r-carree-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-carree-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/527-div-r-carree-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-carree-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/528-div-r-carree-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-carree-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/529-div-r-carree-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-carree-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/530-div-r-20-ronde-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/531-div-r-20-ronde-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/532-div-r-20-ronde-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/533-div-r-20-ronde-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/534-div-carree-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-carree-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/535-div-carree-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-carree-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/536-div-carree-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-carree-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/537-div-carree-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-carree-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/538-div-r-16-ronde-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/539-div-r-16-ronde-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/540-div-r-16-ronde-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/541-div-r-16-ronde-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/542-div-20-ronde-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-20-ronde-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/543-div-20-ronde-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-20-ronde-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/544-div-20-ronde-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-20-ronde-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/545-div-20-ronde-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-20-ronde-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/546-div-16-ronde-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-16-ronde-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/547-div-16-ronde-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-16-ronde-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/548-div-16-ronde-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-16-ronde-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/549-div-16-ronde-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-16-ronde-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/550-diviform-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/551-diviform-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/552-diviform-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/553-diviform-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/554-diviform-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/555-diviform-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/556-diviform-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/557-diviform-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/558-tradiform-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/559-tradiform-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/560-tradiform-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/561-tradiform-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/562-paniform-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/paniform-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/563-paniform-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/paniform-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/564-paniform-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/paniform-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/565-paniform-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/paniform-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/600-varia-pro-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/601-varia-pro-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/602-varia-pro-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/603-varia-pro-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/604-varia-pro-black-edition/"
+  to = "/hleborezatelnye/professionaly/varia-pro-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/605-varia-pro-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/606-varia-pro-3-801/"
+  to = "/hleborezatelnye/professionaly/varia-pro-3-801/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/607-varia-pro-800-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/608-varia-pro-800-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/609-varia-pro-800-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/610-varia-pro-800-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/611-varia-pro-800-black-edition/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/612-varia-pro-800-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/613-varia-pro-3-1000/"
+  to = "/hleborezatelnye/professionaly/varia-pro-3-1000/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/614-varia-pro-1000-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/615-varia-pro-1000-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/616-varia-pro-1000-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/617-varia-pro-1000-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/618-varia-pro-1000-black-edition/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/619-varia-pro-1000-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/621-varia-self-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/622-varia-self-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/623-varia-self-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/624-varia-self-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/625-varia-self-black-edition/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/626-varia-self-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/627-varia-self-2-790/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-2-790/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/628-undefined-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/629-undefined-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/630-undefined-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/631-undefined-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/632-undefined-black-edition/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/633-undefined-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/634-varia-self-2-990/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-2-990/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/635-varia-self-1000-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/636-varia-self-1000-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/637-varia-self-1000-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/638-varia-self-1000-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/639-varia-self-1000-black-edition/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-black-edition/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/640-varia-self-1000-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/643-undefined-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/644-undefined-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/undefined-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/646-varia-self-1000-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/647-varia-self-1000-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/649-undefined-inox/"
+  to = "/hleborezatelnye/professionaly/undefined-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/650-undefined-ral-9010/"
+  to = "/hleborezatelnye/professionaly/undefined-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/652-varia-pro-800-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/653-varia-pro-800-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/654-souffleuse-ensacheuse-mobile/"
+  to = "/hleborezatelnye/professionaly/souffleuse-ensacheuse-mobile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/655-souffleuse-ensacheuse-mobile-1/"
+  to = "/hleborezatelnye/professionaly/souffleuse-ensacheuse-mobile-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/722-diviform-fullmatic-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/723-diviform-fullmatic-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/724-diviform-fullmatic-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/725-diviform-fullmatic-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/726-diviform-fullmatic-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/727-diviform-fullmatic-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/728-diviform-fullmatic-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/729-diviform-fullmatic-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/diviform-fullmatic-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/730-tradiform-fullmatic-oui-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-fullmatic-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/731-tradiform-fullmatic-oui-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-fullmatic-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/732-tradiform-fullmatic-non-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-fullmatic-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/733-tradiform-fullmatic-non-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/tradiform-fullmatic-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/734-div-r-16-ronde-fullmatic-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-fullmatic-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/735-div-r-16-ronde-fullmatic-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-fullmatic-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/736-div-r-16-ronde-fullmatic-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-fullmatic-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/737-div-r-16-ronde-fullmatic-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-16-ronde-fullmatic-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/738-div-r-20-ronde-fullmatic-oui-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-fullmatic-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/739-div-r-20-ronde-fullmatic-oui-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-fullmatic-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/740-div-r-20-ronde-fullmatic-non-non/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-fullmatic-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/741-div-r-20-ronde-fullmatic-non-oui/"
+  to = "/testoobrabotka/gidravlicheskie-deliteli/div-r-20-ronde-fullmatic-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/746-varia-pro-base/"
+  to = "/hleborezatelnye/professionaly/varia-pro-base/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/747-varia-pro-800/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/748-varia-pro-1000/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/749-varia-self-2021/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-2021/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/750-varia-self-800-2021/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-2021/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/751-varia-self-1000-2021/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-2021/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/752-varia-self-800-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/753-varia-self-800-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/754-varia-self-800-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/755-varia-self-800-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/756-varia-self-800-ral-9005/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/757-varia-self-800-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/758-varia-pro-800-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/759-varia-pro-800-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/760-varia-pro-800-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/761-varia-pro-800-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/762-varia-pro-800-ral-9005/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/763-varia-pro-800-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/764-varia-pro-1000-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/765-varia-pro-1000-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/766-varia-pro-1000-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/767-varia-pro-1000-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/768-varia-pro-1000-ral-9005/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/769-varia-pro-1000-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/770-varia-self-1000-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/771-varia-self-1000-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/772-varia-self-1000-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/773-varia-self-1000-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/774-varia-self-1000-ral-9005/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/775-varia-self-1000-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/778-varia-pro-800-black-edition-free/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/779-varia-pro-1000-black-edition-free/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/780-varia-self-800-black-edition-free/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/781-varia-self-1000-black-edition-free/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/788-swift-450-oui-oui-oui/"
+  to = "/hleborezatelnye/professionaly/swift-450-oui-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/789-swift-450-oui-oui-non/"
+  to = "/hleborezatelnye/professionaly/swift-450-oui-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/790-swift-450-oui-non-oui/"
+  to = "/hleborezatelnye/professionaly/swift-450-oui-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/791-swift-450-oui-non-non/"
+  to = "/hleborezatelnye/professionaly/swift-450-oui-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/792-swift-450-non-oui-oui/"
+  to = "/hleborezatelnye/professionaly/swift-450-non-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/793-swift-450-non-oui-non/"
+  to = "/hleborezatelnye/professionaly/swift-450-non-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/794-swift-450-non-non-oui/"
+  to = "/hleborezatelnye/professionaly/swift-450-non-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/795-swift-450-non-non-non/"
+  to = "/hleborezatelnye/professionaly/swift-450-non-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/796-chute-oui-oui-oui/"
+  to = "/hleborezatelnye/professionaly/chute-oui-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/797-chute-oui-oui-non/"
+  to = "/hleborezatelnye/professionaly/chute-oui-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/798-chute-oui-non-oui/"
+  to = "/hleborezatelnye/professionaly/chute-oui-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/799-chute-oui-non-non/"
+  to = "/hleborezatelnye/professionaly/chute-oui-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/800-chute-non-oui-oui/"
+  to = "/hleborezatelnye/professionaly/chute-non-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/801-chute-non-oui-non/"
+  to = "/hleborezatelnye/professionaly/chute-non-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/802-chute-non-non-oui/"
+  to = "/hleborezatelnye/professionaly/chute-non-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/803-chute-non-non-non/"
+  to = "/hleborezatelnye/professionaly/chute-non-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/804-full-t2-oui-oui-oui/"
+  to = "/hleborezatelnye/professionaly/full-t2-oui-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/805-full-t2-oui-oui-non/"
+  to = "/hleborezatelnye/professionaly/full-t2-oui-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/806-full-t2-oui-non-oui/"
+  to = "/hleborezatelnye/professionaly/full-t2-oui-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/807-full-t2-oui-non-non/"
+  to = "/hleborezatelnye/professionaly/full-t2-oui-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/808-full-t2-non-oui-oui/"
+  to = "/hleborezatelnye/professionaly/full-t2-non-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/809-full-t2-non-oui-non/"
+  to = "/hleborezatelnye/professionaly/full-t2-non-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/810-full-t2-non-non-oui/"
+  to = "/hleborezatelnye/professionaly/full-t2-non-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/811-full-t2-non-non-non/"
+  to = "/hleborezatelnye/professionaly/full-t2-non-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/812-full-t3-oui-oui-oui/"
+  to = "/hleborezatelnye/professionaly/full-t3-oui-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/813-full-t3-oui-oui-non/"
+  to = "/hleborezatelnye/professionaly/full-t3-oui-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/814-full-t3-oui-non-oui/"
+  to = "/hleborezatelnye/professionaly/full-t3-oui-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/815-full-t3-oui-non-non/"
+  to = "/hleborezatelnye/professionaly/full-t3-oui-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/816-full-t3-non-oui-oui/"
+  to = "/hleborezatelnye/professionaly/full-t3-non-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/817-full-t3-non-oui-non/"
+  to = "/hleborezatelnye/professionaly/full-t3-non-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/818-full-t3-non-non-oui/"
+  to = "/hleborezatelnye/professionaly/full-t3-non-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/819-full-t3-non-non-non/"
+  to = "/hleborezatelnye/professionaly/full-t3-non-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/820-chute-oui-oui-oui/"
+  to = "/hleborezatelnye/professionaly/chute-oui-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/821-chute-oui-oui-non/"
+  to = "/hleborezatelnye/professionaly/chute-oui-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/822-chute-oui-non-oui/"
+  to = "/hleborezatelnye/professionaly/chute-oui-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/823-chute-oui-non-non/"
+  to = "/hleborezatelnye/professionaly/chute-oui-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/824-chute-non-oui-oui/"
+  to = "/hleborezatelnye/professionaly/chute-non-oui-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/825-chute-non-oui-non/"
+  to = "/hleborezatelnye/professionaly/chute-non-oui-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/826-chute-non-non-oui/"
+  to = "/hleborezatelnye/professionaly/chute-non-non-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/827-chute-non-non-non/"
+  to = "/hleborezatelnye/professionaly/chute-non-non-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/832-tradilevain-40/"
+  to = "/testoobrabotka/fermenty/tradilevain-40/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/833-tradilevain-110/"
+  to = "/testoobrabotka/fermenty/tradilevain-110/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/834-tradilevain-270/"
+  to = "/testoobrabotka/fermenty/tradilevain-270/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/847-integra-pro-800/"
+  to = "/hleborezatelnye/professionaly/integra-pro-800/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/864-easyform/"
+  to = "/testoobrabotka/deliteli-formovshiki/easyform/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/865-easyform-oui/"
+  to = "/testoobrabotka/deliteli-formovshiki/easyform-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/866-easyform-non/"
+  to = "/testoobrabotka/deliteli-formovshiki/easyform-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/871-variaself-2022/"
+  to = "/hleborezatelnye/samoobsluzhivanie/variaself-2022/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/872-varia-self-800-2022/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-2022/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/873-varia-self-800-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/874-varia-self-800-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/875-varia-self-800-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/876-varia-self-800-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/877-varia-self-800-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/878-varia-self-800-ral-9005/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/879-varia-self-1000-2022/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-2022/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/880-varia-self-1000-ral-9010/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/881-varia-self-1000-ral-9006/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/882-varia-self-1000-choix/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/883-varia-self-1000-ral-3013/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/884-varia-self-1000-ral-9005/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/885-varia-self-1000-inox/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/890-varia-pro-800-2022-10/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-2022-10/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/891-varia-pro-800-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/892-varia-pro-800-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/893-varia-pro-800-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/894-varia-pro-800-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/895-varia-pro-800-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/896-varia-pro-800-ral-9005/"
+  to = "/hleborezatelnye/professionaly/varia-pro-800-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/897-varia-pro-1000-2022-10/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-2022-10/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/898-varia-pro-1000-ral-9010/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9010/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/899-varia-pro-1000-ral-9006/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/900-varia-pro-1000-choix/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-choix/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/901-varia-pro-1000-ral-3013/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-3013/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/902-varia-pro-1000-ral-9005/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/903-varia-pro-1000-inox/"
+  to = "/hleborezatelnye/professionaly/varia-pro-1000-inox/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/906-varia-self-800-ral-9010-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/907-varia-self-800-ral-9010-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/908-varia-self-800-ral-3013-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/909-varia-self-800-ral-3013-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/910-varia-self-800-ral-9005-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9005-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/911-varia-self-800-ral-9005-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9005-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/912-varia-self-800-ral-9006-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/913-varia-self-800-ral-9006-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/914-varia-self-800-choix-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/915-varia-self-800-choix-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/916-varia-self-800-inox-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/917-varia-self-800-inox-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/918-varia-self-1000-ral-9010-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/919-varia-self-1000-ral-9010-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9010-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/920-varia-self-1000-ral-3013-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-3013-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/921-varia-self-1000-ral-3013-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-3013-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/922-varia-self-1000-ral-9005-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9005-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/923-varia-self-1000-ral-9005-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9005-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/924-varia-self-1000-ral-9006-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9006-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/925-varia-self-1000-ral-9006-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-ral-9006-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/926-varia-self-1000-choix-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-choix-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/927-varia-self-1000-choix-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-choix-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/928-varia-self-1000-inox-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/929-varia-self-1000-inox-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-1000-inox-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/933-varia-self-800-ral-9010-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/934-varia-self-800-ral-9010-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9010-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/935-varia-self-800-ral-3013-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/936-varia-self-800-ral-3013-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-3013-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/937-varia-self-800-ral-9006-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/938-varia-self-800-ral-9006-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-ral-9006-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/939-varia-self-800-black-edition-free-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-black-edition-free-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/940-varia-self-800-black-edition-free-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-black-edition-free-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/941-varia-self-800-choix-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/942-varia-self-800-choix-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-choix-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/943-varia-self-800-inox-3-boutons/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox-3-boutons/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/944-varia-self-800-inox-ecran-tactile/"
+  to = "/hleborezatelnye/samoobsluzhivanie/varia-self-800-inox-ecran-tactile/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/948-duro-450-black-edition-free/"
+  to = "/hleborezatelnye/professionaly/duro-450-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/949-duro-450m-black-edition-free/"
+  to = "/hleborezatelnye/professionaly/duro-450m-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/950-duro-600-black-edition-free/"
+  to = "/hleborezatelnye/professionaly/duro-600-black-edition-free/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/952-easypress/"
+  to = "/testoobrabotka/presy-dlya-testa/easypress/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/958-pico-450m-black-edition-oui/"
+  to = "/hleborezatelnye/professionaly/pico-450m-black-edition-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/959-pico-450m-black-edition-non/"
+  to = "/hleborezatelnye/professionaly/pico-450m-black-edition-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/961-pico-452/"
+  to = "/hleborezatelnye/professionaly/pico-452/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/962-pico-450-black-edition-oui-1/"
+  to = "/hleborezatelnye/professionaly/pico-450-black-edition-oui-1/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/970-pico-450-ral-9010-oui/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9010-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/971-pico-450-ral-9010-non/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9010-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/972-pico-450-ral-9005-oui/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9005-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/973-pico-450-ral-9005-non/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9005-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/974-pico-450-ral-9006-oui/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9006-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/975-pico-450-ral-9006-non/"
+  to = "/hleborezatelnye/professionaly/pico-450-ral-9006-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/976-pico-450-choix-oui/"
+  to = "/hleborezatelnye/professionaly/pico-450-choix-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/977-pico-450-choix-non/"
+  to = "/hleborezatelnye/professionaly/pico-450-choix-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/978-duro-450-ral-9005/"
+  to = "/hleborezatelnye/professionaly/duro-450-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/979-duro-450-ral-9006/"
+  to = "/hleborezatelnye/professionaly/duro-450-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/980-duro-450m-ral-9006/"
+  to = "/hleborezatelnye/professionaly/duro-450m-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/981-duro-450m-ral-9005/"
+  to = "/hleborezatelnye/professionaly/duro-450m-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/982-duro-600-ral-9006/"
+  to = "/hleborezatelnye/professionaly/duro-600-ral-9006/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/983-duro-600-ral-9005/"
+  to = "/hleborezatelnye/professionaly/duro-600-ral-9005/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/984-zip-yes-oui/"
+  to = "/hleborezatelnye/professionaly/zip-yes-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/985-zip-yes-non/"
+  to = "/hleborezatelnye/professionaly/zip-yes-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/986-zip-no-oui/"
+  to = "/hleborezatelnye/professionaly/zip-no-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/987-zip-no-non/"
+  to = "/hleborezatelnye/professionaly/zip-no-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/988-swift-oui/"
+  to = "/hleborezatelnye/professionaly/swift-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/989-swift-non/"
+  to = "/hleborezatelnye/professionaly/swift-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/990-chute-oui/"
+  to = "/hleborezatelnye/professionaly/chute-oui/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/991-chute-non/"
+  to = "/hleborezatelnye/professionaly/chute-non/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/produit/992-divimax/"
+  to = "/testoobrabotka/avtomat-deliteli/divimax/"
+  status = 301
+  force = true

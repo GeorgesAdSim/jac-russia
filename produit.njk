@@ -1,28 +1,23 @@
 ---
 layout: base.njk
 pagination:
-  data: products
+  data: collections.mainProducts
   size: 1
   alias: product
-permalink: "produit/{{ product.id }}-{{ product.url_key }}/"
 eleventyComputed:
   title: "{{ product.name }}"
+  permalink: "{{ product | productPermalink }}"
 ---
+
+{% set catInfo = product.categories | getProductCatSeo %}
 
 <nav class="breadcrumb__container container">
   <ul class="breadcrumb">
     <li class="breadcrumb__item"><a href="/">Главная</a></li>
-    {% set inBread = false %}
-    {% for catId in product.categories %}
-      {% if (catId == "3" or catId == "4" or catId == "5") and not inBread %}
-        <li class="breadcrumb__item"><a href="/pages/hleborezatelnye/">Хлеборезательные машины</a></li>
-        {% set inBread = true %}
-      {% endif %}
-      {% if (catId == "7" or catId == "8" or catId == "9" or catId == "10" or catId == "11" or catId == "12" or catId == "13" or catId == "14" or catId == "16") and not inBread %}
-        <li class="breadcrumb__item"><a href="/pages/testoobrabotka/">Оборудование для тестообработки</a></li>
-        {% set inBread = true %}
-      {% endif %}
-    {% endfor %}
+    {% if catInfo %}
+      <li class="breadcrumb__item"><a href="/{{ catInfo.parent }}/">{{ catInfo.parentName }}</a></li>
+      <li class="breadcrumb__item"><a href="/{{ catInfo.parent }}/{{ catInfo.slug }}/">{{ catInfo.name }}</a></li>
+    {% endif %}
     <li class="breadcrumb__item breadcrumb__item--active">{{ product.name }}</li>
   </ul>
 </nav>
